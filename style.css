@@ -1,0 +1,1037 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body{
+  height: 3300px;
+  width: 1460px;
+  /* overflow-x: hidden; */
+  position: relative;
+  background-color: rgb(227,230,230);
+}
+
+header {
+  height: 100px;
+  width: 1072px;
+}
+
+.navbar {
+  height: 60px;
+  width: 1460px;
+  background-color: #03112c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+.nav-amazon-logo {
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#amazonImage {
+  width: 7rem;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.nav-address {
+  height: 40px;
+  margin: 10px;
+}
+
+.locationAnchor {
+  color: white;
+  text-decoration: none;
+}
+
+.add-icon {
+  display: flex;
+}
+
+.deliver {
+  font-size: 0.75rem;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.india {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.nav-search {
+  height: 60px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+#department {
+  height: 40px;
+  width: 50px;
+  border-radius: 5px 0px 0px 5px;
+  display: flex;
+}
+
+.search-input {
+  height: 40px;
+  width: 600px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.searchIcon {
+  width: 45px;
+  height: 40px;
+  background-color: rgb(253, 167, 55);
+  border-radius: 0px 5px 5px 0px;
+  display: grid;
+  place-items: center;
+}
+
+#Search-icon {
+  color: black;
+}
+
+.nav-tool-layout {
+  height: 3.6rem;
+  width: 575px;
+  position: relative;
+  left: 20px;
+  display: flex;
+}
+
+.nav-language {
+  height: 40px;
+  width: 50px;
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+
+#languageSelector {
+  height: 40px;
+  height: 1.5rem;
+  border-radius: 5px;
+  width: 2rem;
+}
+
+.nav-link-account-list {
+  height: 60px;
+  width: 131px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-list {
+  height: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.SignIn {
+  font-size: 0.75rem;
+}
+
+.Account {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.nav-return {
+  height: 40px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.nav-return-order {
+  height: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-return-line1 {
+  font-size: 0.75rem;
+}
+
+.nav-return-line2 {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.add-to-cart {
+  height: 60px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cart-tag {
+  height: 40px;
+  width: 80px;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  padding: 5px 0px 0px 0px;
+}
+
+#CartIcon {
+  padding-top: 8px;
+  font-size: 1.5rem;
+}
+
+.cart {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.nav-shoping-content {
+  height: 40px;
+  width: 1460px;
+  color: white;
+  background-color: #0b2046;
+  display: flex;
+  position: fixed;
+  top: 60px;
+  z-index: 1;
+}
+
+.nav-menu-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.nav-menu-bar {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuBar {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav-menu-label {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.nav-deals-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.nav-deals {
+  color: white;
+  text-decoration: none;
+}
+
+#TotalDeals {
+  color: white;
+  font-weight: 500;
+}
+
+.nav-Registry-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.nav-Registry {
+  color: white;
+  text-decoration: none;
+}
+
+#Registry {
+  font-weight: 500;
+}
+
+.nav-customer-service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.nav-customer-service {
+  color: white;
+  text-decoration: none;
+}
+
+#customerService {
+  font-weight: 500;
+}
+
+.nav-gift-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.nav-gift {
+  color: white;
+  text-decoration: none;
+}
+
+#gift {
+  font-weight: 500;
+}
+
+.nav-sell-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.nav-sell {
+  color: white;
+  text-decoration: none;
+}
+
+#sell {
+  font-weight: 500;
+}
+
+main {
+  height: 100vh;
+  width: 1460px;
+  background-image: url(/Images/amazon-content-background-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  place-items: center;
+  position: absolute;
+}
+
+.box-amazon-in-container {
+  height: 40px;
+  width: 1260px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 200px;
+}
+
+.amazonIndia {
+  color: red;
+  text-decoration: underline;
+}
+
+.products-container1 {
+  height: 900px;
+  width: 1260px;
+  position: absolute;
+  top: 270px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px ;
+  grid-template-rows: 400px 400px 400px 400px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Gaming-container {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  grid-template-rows: 160px 160px;
+  gap: 10px;
+  background-color: white;
+}
+
+.GamingProducts {
+  height: 30px;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  bottom: 10px;
+  left: 10px;
+  font-weight: 500;
+}
+
+.gaming1 {
+  margin: 40px 0px 0px 10px;
+}
+
+#Accessories1 {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.gaming2 {
+  margin: 40px 0px 0px 10px;
+}
+
+#Accessories2 {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.gaming3 {
+  margin: 40px 0px 0px 10px;
+}
+
+#Accessories3 {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.gaming4 {
+  margin: 40px 0px 0px 10px;
+}
+
+#Accessories4 {
+  width: 150px;
+  margin-top: 10px;
+}
+
+#SeeMore {
+  color: blue;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.Toys-container {
+  background-color: white;
+}
+
+.ToyProducts {
+  height: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Toys-Item {
+  height: 300px;
+  width: 280px;
+  margin: 0px 10px 20px 10px;
+  background-image: url(/Images/Toys.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#Toys {
+  color: blue;
+  margin-left: 20px;
+}
+
+.PC-container {
+  background-color: white;
+}
+
+.DealsProducts {
+  height: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Deals-Item {
+  height: 300px;
+  width: 280px;
+  margin: 0px 10px 20px 10px;
+  background-image: url(/Images/PCs.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#Deals {
+  color: blue;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.Refresh-container {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  grid-template-rows: 160px 160px;
+  gap: 10px;
+  background-color: white;
+}
+
+.RefreshProducts {
+  height: 30px;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  font-weight: 500;
+}
+
+.Refresher1 {
+  margin: 30px 0px 0px 10px;
+}
+
+#DiningProduct {
+  height: 120px;
+  width: 140px;
+  margin-top: 10px;
+}
+
+.Refresher2 {
+  margin: 30px 0px 0px 10px;
+}
+
+#HomeProduct {
+  height: 120px;
+  width: 130px;
+  margin-top: 10px;
+}
+
+.Refresher3 {
+  margin: 20px 0px 0px 10px;
+}
+
+#KitchenProduct {
+  height: 120px;
+  width: 140px;
+  margin-top: 10px;
+}
+
+.Refresher4 {
+  margin: 20px 0px 0px 10px;
+}
+
+#HealthProduct {
+  height: 120px;
+  width: 130px;
+  margin-top: 10px;
+}
+
+.TopDeals-container {
+  background-color: white;
+}
+
+.TopDeals{
+  height: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.TopDeals-Item {
+  height: 200px;
+  width: 250px;
+  margin: 0px 10px 20px 10px;
+  background-image: url(/Images/TopDeals.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.offer-Deals{
+  height: 30px;
+  width: 110px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 16, 51);
+}
+
+#TopDealsContent{
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+#SeeDeals{
+  color: blue;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.Fashion-container {
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+
+.FashionProduct{
+  height: 25px;
+  width: 200px;
+  font-size: 20px;
+  position: relative;
+  right: 35px;
+  font-weight: 500;
+}
+
+.Fashion{
+  height: 300px;
+  width: 300px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 130px 130px;
+  grid-template-rows: 100px 100px;
+  gap: 20px;
+  padding: 0px 0px 0px 10px;
+}
+
+#Jeans{
+  height: 100px;
+  width: 130px;
+}
+
+#Tops{
+  height: 100px;
+  width: 130px;
+}
+
+.WomensProduct{
+  margin-top: 10px;
+}
+
+#WomensWear{
+  height: 100px;
+  width: 130px;
+}
+
+.ShoesProduct{
+  margin-top: 10px;
+}
+
+#Shoes{
+  height: 100px;
+  width: 130px;
+}
+
+#SeeDealsIn-Fashion{
+  color: blue;
+  position: relative;
+  right: 100px;
+  bottom: 10px;
+}
+
+.Beauty-container {
+  background-color: white;
+}
+
+.BeautyProducts {
+  height: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Beauty-Item {
+  height: 300px;
+  width: 280px;
+  margin: 0px 10px 20px 10px;
+  background-image: url(/Images/BeautySeal.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#Beauty {
+  color: blue;
+  margin-left: 10px;
+}
+
+.NewYear-container {
+  background-color: white;
+}
+
+.NewYearProducts {
+  height: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.NewYear-Item {
+  height: 300px;
+  width: 280px;
+  margin: 0px 10px 20px 10px;
+  background-image: url(/Images/NewYear.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#NewYear{
+  color: blue;
+  margin-left: 10px;
+}
+
+.slider-elements-container{
+  height: 350px;
+  width: 1260px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.slider-elements-container:hover{
+  overflow-x: scroll;
+}
+
+#comiks-and-book{
+  height: 50px;
+  box-sizing: border-box;
+  font-size: 23px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.Books-types{
+  height: 280px;
+  width: 2000px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-left: 10px;
+  position: relative;
+  /* background-color: yellow; */
+  display: flex;
+  float: left;
+}
+
+.Book1,.Book2,.Book3,.Book4,.Book5,.Book6,.Book7,.Book8,.Book9,.Book10,.Book11{
+   height: 250px;
+   width: 160px;
+   box-sizing: border-box;
+   margin-left: 20px;
+   
+}
+
+.Book1{
+  margin-left: 10px;
+}
+
+#Deals-Container{
+  height: 360px;
+  width: 1260px;
+  position: relative;
+  top: 1400px;
+  box-sizing: border-box;
+  background-color:white;
+  overflow-x: hidden;
+}
+
+#Deals-Container:hover{
+  overflow-x: scroll;
+}
+
+#Under25Dollor{
+  height: 50px;
+  box-sizing: border-box;
+  font-size: 23px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#SeeMoreInDeals{
+  font-size: 1rem;
+  color: blue;
+  margin-left: 20px;
+}
+
+.Deals-types{
+  height: 280px;
+  width: 2000px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-left: 10px;
+  position: relative;
+  display: flex;
+  float: left;
+}
+
+.pillow,.color,.Medicien,.CraftPaper,.LEDBulb,.MousePad,.carpet{
+   width: 250px;
+   height: 200px;
+   margin-left: 20px;
+   border-radius: 8px;
+   background-color: rgb(247,248,248);
+}
+
+
+.pillow{
+  margin-left: 10px;
+}
+
+.OffInPillow{
+  height: 25px;
+  width: 70px;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  margin-left: 10px;
+  color: white;
+  background-color:rgb(204,12,57);
+}
+
+.Off{
+  height: 25px;
+  width: 70px;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  margin-left: 20px;
+  color: white;
+  background-color:rgb(204,12,57);
+}
+
+.Information{
+  font-weight: 500;
+  font-size: 0.80rem;
+  margin-left: 20px;
+}
+
+.signInButton{
+   height: 150px;
+   width: 1260px;
+   border-top: 2px solid grey;
+   border-bottom: 2px solid grey;
+   background-color: white;
+   position: absolute;
+   box-sizing: border-box;
+   top: 1880px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+}
+
+.personalized{
+  font-weight: 500;
+}
+
+.SignIn-container{
+  height: 30px;
+  width: 250px;
+  border-radius:5px;
+  display: flex;
+  margin: 5px 0px 5px 0px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255,201,64);
+  transition: all 0.5s ;
+}
+
+.SignIn-container:hover{
+     scale: 1;
+     box-shadow: 0px 0px 8px rgb(247, 140, 25), 0px 0px 8px rgb(247, 140, 25) ,0px 0px 8px rgb(247, 140, 25) ,0px 0px 8px rgb(247, 140, 25);
+}
+
+#SignIn{
+  font-weight: 600;
+}
+
+#startHere{
+  color: blue;
+  font-weight: 400;
+}
+
+footer{
+  height: 1150px;
+  width: 1460px;
+  background-color: rgb(35,47,62);
+  position: absolute;
+  bottom: 0px;
+}
+
+.BackToTop{
+  width: 1460px;
+  height: 60px;
+  color: white;
+  display: grid;
+  place-items: center;
+  background-color: rgb(55,71,90);
+}
+
+.nav-footer-accessibility{
+  height: 400px;
+  width: 1460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.Get-to-know-us{
+  height: 300px;
+  width: 200px;
+  color: white;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.make-money{
+  height: 300px;
+  width: 200px;
+  color: white;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-product{
+  height: 300px;
+  width: 200px;
+  color: white;
+  font-weight: 500;
+  box-sizing: border-box;
+  /* padding-bottom: 140px; */
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.help-container{
+  height: 300px;
+  width: 200px;
+  color: white;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding-bottom: 140px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.knowUs,.makeMoney,.AmazonPayment,.help{
+  margin-top: 10px;
+  color: rgb(221,188,149);
+  font-weight: 500;
+}
+
+.knowUs:hover{
+  text-decoration: underline;
+}
+
+.makeMoney:hover{
+  text-decoration: underline;
+}
+
+.AmazonPayment:hover{
+  text-decoration: underline;
+}
+
+.help:hover{
+  text-decoration: underline;
+}
+
+.nav-footer{
+  height: 650px;
+  width: 1460px;
+  background-color: rgb(19,26,34);
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+  gap: 30px;
+}
+
+.nav-footer-Desc-text{
+  position: relative;
+  top: 40px;
+  left: 100px;
+}
+
+.nav-footer-Desc-text-Last{
+  position: relative;
+  top: 40px;
+  left: 250px;
+
+}
+
+.title{
+  color: white;
+  font-weight: 700;
+}
+
+.title:hover{
+  text-decoration: underline;
+}
+
+.content{
+  color: white;
+}
+
+.content:hover{
+  text-decoration: underline;
+}
+
+.Privacy{
+  height: 30px;
+  width: 1450px;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Condition,.PrivacyNote{
+  height:30px;
+  width:120px;
+  display: grid;
+  place-items: center;
+}
+
+.Ads{
+  height:30px;
+  width:180px;
+  display: grid;
+  place-items: center;
+}
+
+.use,.notice,.ads{
+   color: white;
+}
+
+.copyRight{
+  height: 30px;
+  width: 1450px;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
