@@ -1,0 +1,265 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url(/SignInImage/background.png);
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-clip: content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 400px) {
+  body {
+    height: 100vh;
+    background-image: url(/SignInImage/background2.png);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-clip: content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.outercontainer {
+  height: 400px;
+  width: 600px;
+  display: flex;
+  justify-content: start;
+  background-color: transparent;
+  border: 4px solid white;
+  border-radius: 35px;
+  backdrop-filter: blur(5px);
+}
+
+.innercontainer {
+  height: 396px;
+  width: 300px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 30px;
+}
+
+@media (max-width: 400px) {
+  .outercontainer {
+    height: 390px;
+    width: 230px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 35px;
+    backdrop-filter: blur(5px);
+  }
+  .innercontainer {
+    height: 390px;
+    width: 230px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+}
+
+h4 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.link{
+  height: 60px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  margin: 15px 10px 10px 20px;
+  padding-left: 20px;
+  
+}
+
+@media (max-width: 400px)
+{
+  img {
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    margin: 15px 10px 10px 20px;
+    padding-left: 10px;
+  }
+  
+}
+
+.email {
+  height: 30px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 1px 15px 1px 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 4px 4px 20px rgb(215, 213, 213) inset;
+}
+
+.email:hover{
+  scale:1.1;
+}
+
+@media (max-width: 400px) {
+  .email {
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 1px 15px 1px 15px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 4px 4px 20px rgb(215, 213, 213) inset;
+  }
+  .email:hover{
+    scale:1.1;
+  }
+}
+
+.password {
+  height: 30px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 1px 15px 1px 15px;
+  margin-top: 30px;
+ 
+  margin-left: 20px; 
+  box-shadow: 4px 4px 20px rgb(215, 213, 213) inset;
+}
+
+.password:hover{
+  scale:1.1;
+}
+
+@media (max-width: 400px) {
+  .password {
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 1px 15px 1px 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 4px 4px 20px rgb(215, 213, 213) inset;
+  }
+
+  .password:hover{
+    scale:1.1;
+  }
+}
+
+@media (max-width: 400px)
+{
+  .rememberMe{
+    font-size: 12px;
+  }
+}
+
+.forget {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+@media (max-width: 300px)
+{
+  .forget {
+    font-size: 10px;
+    margin: 10px 12px 0px 12px;
+  }
+}
+
+#forgetpassword {
+  color: black;
+  text-decoration: none;
+  margin: 0px 0px 0px 26px;
+}
+
+@media (max-width: 400px)
+{
+  #forgetpassword {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    margin: 0px 0px 0px 10px;
+  }
+}
+
+button {
+  height: 30px;
+  width: 250px;
+  margin: 30px 0px 0px 23px;
+  border: 1px solid orangered;
+  border-radius: 15px;
+  background-color: orangered;
+  box-shadow: 5px 5px 5px rgb(240, 101, 51);
+}
+
+button:hover{
+  cursor: pointer;
+  scale: 1.1;
+}
+
+
+@media (max-width: 400px) {
+  button {
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 14px;
+    margin-right: 10px;
+    border: 1px solid orangered;
+    border-radius: 15px;
+    background-color: orangered;
+    box-shadow: 5px 5px 5px rgb(240, 101, 51);
+  }
+
+  button:hover{
+    cursor: pointer;
+    scale: 1.1;
+  }
+}
+
+.createAccount {
+  display: flex;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-left: 10px;
+  justify-content: center;
+}
+
+
+@media (max-width: 400px) {
+  .createAccount {
+    font-size: 14px;
+    align-content: center;
+  }
+}
+
+.create{
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+@media (max-width: 400px)
+{
+  p{
+    font-size: 12px;
+  }
+  .create{
+    color: red;
+    margin-left: 10px;
+  }
+}
