@@ -1,0 +1,272 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url(/SignInImage/background.png);
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-clip: content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 400px) {
+  body {
+    height: 100vh;
+    background-image: url(/SignInImage/background2.png);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-clip: content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.outercontainer {
+  height: 400px;
+  width: 600px;
+  display: flex;
+  justify-content: end;
+  background-color: transparent;
+  border: 4px solid white;
+  border-radius: 35px;
+  backdrop-filter: blur(5px);
+}
+
+.innercontainer {
+  height: 396px;
+  width: 300px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 30px;
+}
+
+@media (max-width: 400px) {
+  .outercontainer {
+    height: 390px;
+    width: 230px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 35px;
+    backdrop-filter: blur(5px);
+  }
+  .innercontainer {
+    height: 390px;
+    width: 230px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+}
+
+h4 {
+  font-size: large;
+  font-weight: bold;
+  font-family: cursive;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Signup {
+  height: 40px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-left: 28px;
+}
+
+@media (max-width: 400px) {
+  .Signup {
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+img {
+  height: 25px;
+  width: 25px;
+  align-items: center;
+  margin: 15px 10px 10px 10px;
+}
+
+pre {
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+@media (max-width: 400px) {
+  pre {
+    text-align: center;
+    font-weight: bolder;
+  }
+}
+
+.name {
+  height: 30px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 1px 15px 1px 15px;
+  margin-left: 28px;
+  box-shadow: 4px 4px 20px rgb(215, 213, 213) inset;
+}
+
+.name:hover {
+  scale: 1.1;
+}
+
+@media (max-width: 400px) {
+  .name {
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 1px 15px 1px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 4px 4px 20px rgb(215, 213, 213) inset;
+  }
+
+  .name:hover {
+    scale: 1.1;
+  }
+}
+
+.email {
+  height: 30px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 1px 15px 1px 15px;
+  margin-top: 20px;
+  margin-left: 28px;
+  box-shadow: 4px 4px 20px rgb(215, 213, 213) inset;
+}
+
+.email:hover {
+  scale: 1.1;
+}
+
+@media (max-width: 400px) {
+  .email {
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 1px 15px 1px 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 4px 4px 20px rgb(215, 213, 213) inset;
+  }
+
+  .email:hover {
+    scale: 1.1;
+  }
+}
+
+.password {
+  height: 30px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 1px 15px 1px 15px;
+  margin-top: 20px;
+  margin-left: 28px;
+  box-shadow: 4px 4px 20px rgb(215, 213, 213) inset;
+}
+
+.password:hover {
+  scale: 1.1;
+}
+
+@media (max-width: 400px) {
+  .password {
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 1px 15px 1px 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 4px 4px 20px rgb(215, 213, 213) inset;
+  }
+
+  .password:hover {
+    scale: 1.1;
+  }
+}
+
+button {
+  height: 30px;
+  width: 250px;
+  margin: 20px 0px 0px 33px;
+  border: 1px solid orangered;
+  border-radius: 15px;
+  background-color: orangered;
+  box-shadow: 5px 5px 5px rgb(240, 101, 51);
+}
+button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+@media (max-width: 400px) {
+  button {
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 14px;
+    margin-right: 10px;
+    border: 1px solid orangered;
+    border-radius: 15px;
+    background-color: orangered;
+    box-shadow: 5px 5px 5px rgb(240, 101, 51);
+  }
+
+  button:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+}
+
+.login {
+  display: flex;
+  padding-left: 15px;
+  justify-content: center;
+}
+
+a {
+  font-weight: 800;
+}
+
+@media (max-width: 400px) {
+  .login {
+    font-size: 14px;
+    align-content: center;
+  }
+
+  a {
+    font-weight: 800;
+  }
+}
