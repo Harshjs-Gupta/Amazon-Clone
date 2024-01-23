@@ -8,12 +8,12 @@ a {
   color: black;
 }
 
-body{
+body {
   height: 3300px;
-  width: 1460px;
-  /* overflow-x: hidden; */
+  width: 100vw;
+  margin: auto 0;
   position: relative;
-  background-color: rgb(227,230,230);
+  background-color: rgb(227, 230, 230);
 }
 
 header {
@@ -335,7 +335,7 @@ header {
 
 main {
   height: 100vh;
-  width: 1460px;
+  width: 100%;
   background-image: url(/Images/amazon-content-background-image.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -367,7 +367,7 @@ main {
   position: absolute;
   top: 270px;
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px ;
+  grid-template-columns: 300px 300px 300px 300px;
   grid-template-rows: 400px 400px 400px 400px;
   flex-wrap: wrap;
   gap: 20px;
@@ -542,7 +542,7 @@ main {
   background-color: white;
 }
 
-.TopDeals{
+.TopDeals {
   height: 20px;
   font-size: 20px;
   font-weight: 500;
@@ -557,7 +557,7 @@ main {
   background-size: cover;
 }
 
-.offer-Deals{
+.offer-Deals {
   height: 30px;
   width: 110px;
   color: white;
@@ -569,12 +569,12 @@ main {
   background-color: rgb(226, 16, 51);
 }
 
-#TopDealsContent{
+#TopDealsContent {
   margin-bottom: 20px;
   margin-left: 10px;
 }
 
-#SeeDeals{
+#SeeDeals {
   color: blue;
   font-weight: 400;
   margin-left: 10px;
@@ -586,7 +586,7 @@ main {
   place-items: center;
 }
 
-.FashionProduct{
+.FashionProduct {
   height: 25px;
   width: 200px;
   font-size: 20px;
@@ -595,7 +595,7 @@ main {
   font-weight: 500;
 }
 
-.Fashion{
+.Fashion {
   height: 300px;
   width: 300px;
   box-sizing: border-box;
@@ -606,35 +606,35 @@ main {
   padding: 0px 0px 0px 10px;
 }
 
-#Jeans{
+#Jeans {
   height: 100px;
   width: 130px;
 }
 
-#Tops{
+#Tops {
   height: 100px;
   width: 130px;
 }
 
-.WomensProduct{
+.WomensProduct {
   margin-top: 10px;
 }
 
-#WomensWear{
+#WomensWear {
   height: 100px;
   width: 130px;
 }
 
-.ShoesProduct{
+.ShoesProduct {
   margin-top: 10px;
 }
 
-#Shoes{
+#Shoes {
   height: 100px;
   width: 130px;
 }
 
-#SeeDealsIn-Fashion{
+#SeeDealsIn-Fashion {
   color: blue;
   position: relative;
   right: 100px;
@@ -684,12 +684,12 @@ main {
   background-size: cover;
 }
 
-#NewYear{
+#NewYear {
   color: blue;
   margin-left: 10px;
 }
 
-.slider-elements-container{
+.slider-elements-container {
   height: 350px;
   width: 1260px;
   position: relative;
@@ -698,11 +698,11 @@ main {
   overflow-x: hidden;
 }
 
-.slider-elements-container:hover{
+.slider-elements-container:hover {
   overflow-x: scroll;
 }
 
-#comiks-and-book{
+#comiks-and-book {
   height: 50px;
   box-sizing: border-box;
   font-size: 23px;
@@ -711,7 +711,7 @@ main {
   padding-left: 20px;
 }
 
-.Books-types{
+.Books-types {
   height: 280px;
   width: 2000px;
   box-sizing: border-box;
@@ -723,33 +723,42 @@ main {
   float: left;
 }
 
-.Book1,.Book2,.Book3,.Book4,.Book5,.Book6,.Book7,.Book8,.Book9,.Book10,.Book11{
-   height: 250px;
-   width: 160px;
-   box-sizing: border-box;
-   margin-left: 20px;
-   
+.Book1,
+.Book2,
+.Book3,
+.Book4,
+.Book5,
+.Book6,
+.Book7,
+.Book8,
+.Book9,
+.Book10,
+.Book11 {
+  height: 250px;
+  width: 160px;
+  box-sizing: border-box;
+  margin-left: 20px;
 }
 
-.Book1{
+.Book1 {
   margin-left: 10px;
 }
 
-#Deals-Container{
+#Deals-Container {
   height: 360px;
   width: 1260px;
   position: relative;
   top: 1400px;
   box-sizing: border-box;
-  background-color:white;
+  background-color: white;
   overflow-x: hidden;
 }
 
-#Deals-Container:hover{
+#Deals-Container:hover {
   overflow-x: scroll;
 }
 
-#Under25Dollor{
+#Under25Dollor {
   height: 50px;
   box-sizing: border-box;
   font-size: 23px;
@@ -758,13 +767,13 @@ main {
   padding-left: 20px;
 }
 
-#SeeMoreInDeals{
+#SeeMoreInDeals {
   font-size: 1rem;
   color: blue;
   margin-left: 20px;
 }
 
-.Deals-types{
+.Deals-types {
   height: 280px;
   width: 2000px;
   box-sizing: border-box;
@@ -775,20 +784,25 @@ main {
   float: left;
 }
 
-.pillow,.color,.Medicien,.CraftPaper,.LEDBulb,.MousePad,.carpet{
-   width: 250px;
-   height: 200px;
-   margin-left: 20px;
-   border-radius: 8px;
-   background-color: rgb(247,248,248);
+.pillow,
+.color,
+.Medicien,
+.CraftPaper,
+.LEDBulb,
+.MousePad,
+.carpet {
+  width: 250px;
+  height: 200px;
+  margin-left: 20px;
+  border-radius: 8px;
+  background-color: rgb(247, 248, 248);
 }
 
-
-.pillow{
+.pillow {
   margin-left: 10px;
 }
 
-.OffInPillow{
+.OffInPillow {
   height: 25px;
   width: 70px;
   border-radius: 5px;
@@ -796,10 +810,10 @@ main {
   place-items: center;
   margin-left: 10px;
   color: white;
-  background-color:rgb(204,12,57);
+  background-color: rgb(204, 12, 57);
 }
 
-.Off{
+.Off {
   height: 25px;
   width: 70px;
   border-radius: 5px;
@@ -807,78 +821,79 @@ main {
   place-items: center;
   margin-left: 20px;
   color: white;
-  background-color:rgb(204,12,57);
+  background-color: rgb(204, 12, 57);
 }
 
-.Information{
+.Information {
   font-weight: 500;
-  font-size: 0.80rem;
+  font-size: 0.8rem;
   margin-left: 20px;
 }
 
-.signInButton{
-   height: 150px;
-   width: 1260px;
-   border-top: 2px solid grey;
-   border-bottom: 2px solid grey;
-   background-color: white;
-   position: absolute;
-   box-sizing: border-box;
-   top: 1880px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items:center;
+.signInButton {
+  height: 150px;
+  width: 1260px;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  background-color: white;
+  position: absolute;
+  box-sizing: border-box;
+  top: 1880px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.personalized{
+.personalized {
   font-weight: 500;
 }
 
-.SignIn-container{
+.SignIn-container {
   height: 30px;
   width: 250px;
-  border-radius:5px;
+  border-radius: 5px;
   display: flex;
   margin: 5px 0px 5px 0px;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255,201,64);
-  transition: all 0.5s ;
+  background-color: rgb(255, 201, 64);
+  transition: all 0.5s;
 }
 
-.SignIn-container:hover{
-     scale: 1;
-     box-shadow: 0px 0px 8px rgb(247, 140, 25), 0px 0px 8px rgb(247, 140, 25) ,0px 0px 8px rgb(247, 140, 25) ,0px 0px 8px rgb(247, 140, 25);
+.SignIn-container:hover {
+  scale: 1;
+  box-shadow: 0px 0px 8px rgb(247, 140, 25), 0px 0px 8px rgb(247, 140, 25),
+    0px 0px 8px rgb(247, 140, 25), 0px 0px 8px rgb(247, 140, 25);
 }
 
-#SignIn{
+#SignIn {
   font-weight: 600;
 }
 
-#startHere{
+#startHere {
   color: blue;
   font-weight: 400;
 }
 
-footer{
+footer {
   height: 1150px;
   width: 1460px;
-  background-color: rgb(35,47,62);
+  background-color: rgb(35, 47, 62);
   position: absolute;
   bottom: 0px;
 }
 
-.BackToTop{
+.BackToTop {
   width: 1460px;
   height: 60px;
   color: white;
   display: grid;
   place-items: center;
-  background-color: rgb(55,71,90);
+  background-color: rgb(55, 71, 90);
 }
 
-.nav-footer-accessibility{
+.nav-footer-accessibility {
   height: 400px;
   width: 1460px;
   display: flex;
@@ -887,7 +902,7 @@ footer{
   gap: 100px;
 }
 
-.Get-to-know-us{
+.Get-to-know-us {
   height: 300px;
   width: 200px;
   color: white;
@@ -898,7 +913,7 @@ footer{
   flex-direction: column;
 }
 
-.make-money{
+.make-money {
   height: 300px;
   width: 200px;
   color: white;
@@ -909,7 +924,7 @@ footer{
   flex-direction: column;
 }
 
-.payment-product{
+.payment-product {
   height: 300px;
   width: 200px;
   color: white;
@@ -922,7 +937,7 @@ footer{
   /* justify-content: center; */
 }
 
-.help-container{
+.help-container {
   height: 300px;
   width: 200px;
   color: white;
@@ -934,32 +949,35 @@ footer{
   flex-direction: column;
 }
 
-.knowUs,.makeMoney,.AmazonPayment,.help{
+.knowUs,
+.makeMoney,
+.AmazonPayment,
+.help {
   margin-top: 10px;
-  color: rgb(221,188,149);
+  color: rgb(221, 188, 149);
   font-weight: 500;
 }
 
-.knowUs:hover{
+.knowUs:hover {
   text-decoration: underline;
 }
 
-.makeMoney:hover{
+.makeMoney:hover {
   text-decoration: underline;
 }
 
-.AmazonPayment:hover{
+.AmazonPayment:hover {
   text-decoration: underline;
 }
 
-.help:hover{
+.help:hover {
   text-decoration: underline;
 }
 
-.nav-footer{
+.nav-footer {
   height: 650px;
   width: 1460px;
-  background-color: rgb(19,26,34);
+  background-color: rgb(19, 26, 34);
   position: absolute;
   bottom: 0;
   box-sizing: border-box;
@@ -969,37 +987,36 @@ footer{
   gap: 30px;
 }
 
-.nav-footer-Desc-text{
+.nav-footer-Desc-text {
   position: relative;
   top: 40px;
   left: 100px;
 }
 
-.nav-footer-Desc-text-Last{
+.nav-footer-Desc-text-Last {
   position: relative;
   top: 40px;
   left: 250px;
-
 }
 
-.title{
+.title {
   color: white;
   font-weight: 700;
 }
 
-.title:hover{
+.title:hover {
   text-decoration: underline;
 }
 
-.content{
+.content {
   color: white;
 }
 
-.content:hover{
+.content:hover {
   text-decoration: underline;
 }
 
-.Privacy{
+.Privacy {
   height: 30px;
   width: 1450px;
   position: absolute;
@@ -1009,25 +1026,28 @@ footer{
   justify-content: center;
 }
 
-.Condition,.PrivacyNote{
-  height:30px;
-  width:120px;
+.Condition,
+.PrivacyNote {
+  height: 30px;
+  width: 120px;
   display: grid;
   place-items: center;
 }
 
-.Ads{
-  height:30px;
-  width:180px;
+.Ads {
+  height: 30px;
+  width: 180px;
   display: grid;
   place-items: center;
 }
 
-.use,.notice,.ads{
-   color: white;
+.use,
+.notice,
+.ads {
+  color: white;
 }
 
-.copyRight{
+.copyRight {
   height: 30px;
   width: 1450px;
   position: absolute;
